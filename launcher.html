@@ -21,8 +21,9 @@ function webretroEmbed(node, path, queries) {
 </head>    
 <body>
     <div id="webretro-container" style="height: 100%; width: 100%;"></div>
+    <iframe src="/webretro/embed.html"></iframe>
     <script>
-        var frame = webretroEmbed(document.getElementById("webretro-container"), "https://tenhqu1fuw.github.io/webretro/", {system: "nes", rom: "https://tenhqu1fuw.github.io/webretro/embed/roms/2048.nes"});
+        //var frame = webretroEmbed(document.getElementById("webretro-container"), "https://tenhqu1fuw.github.io/webretro/", {system: "nes", rom: "https://tenhqu1fuw.github.io/webretro/embed/roms/2048.nes"});
         document.getElementById("fullscreen").onclick = function() {
             frame.requestFullscreen();
         };
